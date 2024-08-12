@@ -21,4 +21,4 @@ let arr = [10,11,12];
 bubblesort(arr);
 console.log(arr);
 
-exports.bubblesort = bubblesort;
+module.exports = bubblesort;

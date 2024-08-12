@@ -42,4 +42,4 @@ let arr = [9,1,6,-1,3,18,2,14];
 arr = mergesort(arr);
 console.log(arr);
 
-exports.mergesort = mergesort;
+module.exports = mergesort;

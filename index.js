@@ -1,5 +1,5 @@
-const dataStructures = require('./dataStructures/index');
-const algorithms = require('./algorithms/index');
+const dataStructures = require('./dataStructures');
+const algorithms = require('./algorithm');
 
 module.exports = {  
     dataStructures, 

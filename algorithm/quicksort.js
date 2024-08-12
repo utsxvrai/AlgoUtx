@@ -42,4 +42,4 @@ let arr = [5,4,3,2,1, 8,9 , 0, -2, 3, 5];
 quicksort(arr);
 console.log(arr);
 
-exports.quicksort = quicksort;
+module.exports= quicksort;
