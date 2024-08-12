@@ -85,4 +85,4 @@ class MaxHeap {
     }
 }
 
-module.exports = Heap;   
+module.exports = MaxHeap;   
