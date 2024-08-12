@@ -1,6 +1,6 @@
 {
   "name": "utx.js",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "an npm package that can help you to use all of the famous ds and algo in your coding implementation.",
   "main": "index.js",
   "scripts": {
