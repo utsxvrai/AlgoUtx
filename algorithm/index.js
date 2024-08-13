@@ -1,5 +1,5 @@
-module.export ={
-    BubbleSort: require('./bubbleSort'),    
-    MergeSort: require('./mergeSort'),
-    QuickSort: require('./quickSort'),
+module.exports ={
+    BubbleSort: require('./bubblesort'),    
+    MergeSort: require('./mergesort'),
+    QuickSort: require('./quicksort'),
 }

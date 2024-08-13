@@ -1,24 +1,22 @@
 function bubblesort(arr) {
     let n = arr.length;
-    // this function applied adjacent comparisons and immediate swaps with adjacent element
-    for(let i = 0; i < n - 1; i++) {
+    // This function applies adjacent comparisons and immediate swaps with adjacent elements
+    for (let i = 0; i < n - 1; i++) {
         let isSwapped = false;
-        // we just need n-1 iterations because after than we will be only left with smallest element
-        for(let j = 0; j < n - i - 1; j++) {
-            if(arr[j] > arr[j+1]) {
-                // swap
+        // We just need n-1 iterations because after that, we will be left with the smallest elements
+        for (let j = 0; j < n - i - 1; j++) {
+            if (arr[j] > arr[j + 1]) {
+                // Swap
                 let temp = arr[j];
-                arr[j] = arr[j+1];
-                arr[j+1] = temp;
+                arr[j] = arr[j + 1];
+                arr[j + 1] = temp;
                 isSwapped = true;
             }
         }
-        if(isSwapped == false) break;
+        // If no elements were swapped, the array is already sorted
+        if (!isSwapped) break;
     }
+    return arr; // Return the sorted array
 }
-
-let arr = [10,11,12];
-bubblesort(arr);
-console.log(arr);
 
 module.exports = bubblesort;

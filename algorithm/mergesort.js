@@ -38,8 +38,6 @@ function mergesort(arr) {
     return f(arr, 0, arr.length - 1);
 }
 
-let arr = [9,1,6,-1,3,18,2,14];
-arr = mergesort(arr);
-console.log(arr);
+
 
 module.exports = mergesort;
